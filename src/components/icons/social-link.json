@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_icons_social_links",
+  "info": {
+    "displayName": "SocialLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_components_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SocialLinks": {
+      "displayName": "SocialLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "icons.social-link"
+    },
+    "TopLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared-components.link"
+    },
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared-components.link"
+    }
+  }
+}
